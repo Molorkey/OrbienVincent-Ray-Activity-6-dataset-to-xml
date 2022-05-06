@@ -1,26 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+<!DOCTYPE pokedata [
+
+	<!ELEMENT pokedata (name, type1, type2, health, attack, defense, spatk, speed, generation, legendary)>
+	
+	<!ELEMENT pokemon (#PCDATA)>
+	<!ELEMENT type1 (#PCDATA)>
+	<!ELEMENT type2 (#PCDATA)>
+	<!ELEMENT health (#PCDATA)>
+	<!ELEMENT attack (#PCDATA)>
+	<!ELEMENT defense (#PCDATA)>
+	<!ELEMENT spatk (#PCDATA)>
+	<!ELEMENT speed (#PCDATA)>
+	<!ELEMENT generation (#PCDATA)>
+	<!ELEMENT generation (#PCDATA)>
+	
+
+	<!ATTLIST name num CDATA #REQUIRED>
+]>
+
+
 <pokedata>
-	<name num="1"> Bulbasaur </name>
-	<type1> Grass </type1>
-	<type2> 100-000-000+ </type2>
-	<health> 45 </health>
-	<attack> 10191799 </attack>
-	<defense> 49 </defense>
-	<spatk> 65 </spatk>
-	<speed> 45 </speed>
-	<generation> 1 </generation>
-	<legendary> false </legendary>
+	<pokemon num="1">
+		<name> Bulbasaur </name>
+		<type1> Grass </type1>
+		<type2> Poison </type2>
+		<health> 45 </health>
+		<attack> 49 </attack>
+		<defense> 49 </defense>
+		<spatk> 65 </spatk>
+		<speed> 45 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+
+
+	<pokemon num="2">
+		<name> Ivysaur </name>
+		<type1> Grass </type1>
+		<type2> Poison </type2>
+		<health> 60 </health>
+		<attack> 62 </attack>
+		<defense> 63 </defense>
+		<spatk> 80 </spatk>
+		<speed> 60 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+
+
+	<pokemon num="3"> 
+		<name> Venusaur </name>
+		<type1> Grass </type1>
+		<type2> Poison </type2>
+		<health> 80 </health>
+		<attack> 82 </attack>
+		<defense> 83 </defense>
+		<spatk> 100 </spatk>
+		<speed> 80 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="4"> 
+		<name> Charmander </name>
+		<type1> Fire </type1>
+		<type2> none </type2>
+		<health> 39 </health>
+		<attack> 52 </attack>
+		<defense> 43 </defense>
+		<spatk> 60 </spatk>
+		<speed> 65 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="5"> 
+		<name> Charmeleon </name>
+		<type1> Fire </type1>
+		<type2> none </type2>
+		<health> 58 </health>
+		<attack> 64 </attack>
+		<defense> 58 </defense>
+		<spatk> 80 </spatk>
+		<speed> 80 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="6"> 
+		<name> Charizard </name>
+		<type1> Fire </type1>
+		<type2> Flying </type2>
+		<health> 78 </health>
+		<attack> 84 </attack>
+		<defense> 78 </defense>
+		<spatk> 109 </spatk>
+		<speed> 100 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="7"> 
+		<name> Squirtle </name>
+		<type1> Water </type1>
+		<type2> none </type2>
+		<health> 44 </health>
+		<attack> 48 </attack>
+		<defense> 65 </defense>
+		<spatk> 50 </spatk>
+		<speed> 43 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="8"> 
+		<name> Wartortle </name>
+		<type1> Water </type1>
+		<type2> none </type2>
+		<health> 59 </health>
+		<attack> 63 </attack>
+		<defense> 80 </defense>
+		<spatk> 65 </spatk>
+		<speed> 58 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="9"> 
+		<name> Blastoise </name>
+		<type1> Water </type1>
+		<type2> none </type2>
+		<health> 79 </health>
+		<attack> 83 </attack>
+		<defense> 100 </defense>
+		<spatk> 85 </spatk>
+		<speed> 78 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="10"> 
+		<name> Caterpie </name>
+		<type1> Bug </type1>
+		<type2> none </type2>
+		<health> 45 </health>
+		<attack> 30 </attack>
+		<defense> 35 </defense>
+		<spatk> 20 </spatk>
+		<speed> 45 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="11"> 
+		<name> Metapod </name>
+		<type1> Bug </type1>
+		<type2> none </type2>
+		<health> 50 </health>
+		<attack> 20 </attack>
+		<defense> 55 </defense>
+		<spatk> 25 </spatk>
+		<speed> 30 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="12"> 
+		<name> Butterfree </name>
+		<type1> Bug </type1>
+		<type2> Flying </type2>
+		<health> 60 </health>
+		<attack> 45 </attack>
+		<defense> 50 </defense>
+		<spatk> 90 </spatk>
+		<speed> 70 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="13"> 
+		<name> Weedle </name>
+		<type1> Bug </type1>
+		<type2> Poison </type2>
+		<health> 40 </health>
+		<attack> 35 </attack>
+		<defense> 30 </defense>
+		<spatk> 20 </spatk>
+		<speed> 50 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="14"> 
+		<name> Kakuna </name>
+		<type1> Bug </type1>
+		<type2> Poison </type2>
+		<health> 45 </health>
+		<attack> 25 </attack>
+		<defense> 50 </defense>
+		<spatk> 25 </spatk>
+		<speed> 35 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+	<pokemon num="15"> 
+		<name> Beedrill </name>
+		<type1> Bug </type1>
+		<type2> Poison </type2>
+		<health> 65 </health>
+		<attack> 90 </attack>
+		<defense> 40 </defense>
+		<spatk> 45 </spatk>
+		<speed> 75 </speed>
+		<generation> 1 </generation>
+		<legendary> false </legendary>
+	</pokemon>
+
+
+
+
+
+
 </pokedata>
-
-
-
-
-
-
-
-
-
-
-
-</gamedata>
